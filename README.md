@@ -2,6 +2,19 @@
 
 Este repositório foi criado a partir de uma necessidade em fazer "bolões" em apostas na Loterias Online (https://www.loteriasonline.caixa.gov.br/).
 
+     __________        ___.                   .__         .__             
+     \______   \  ____ \_ |__    ____ ________|__|  ____  |  |__    ____  
+      |       _/ /  _ \ | __ \  /  _ \\___   /|  | /    \ |  |  \  /  _ \ 
+      |    |   \(  <_> )| \_\ \(  <_> )/    / |  ||   |  \|   Y  \(  <_> )
+      |____|_  / \____/ |___  / \____//_____ \|__||___|  /|___|  / \____/ 
+             \/             \/              \/         \/      \/         
+               .___           _________                 __           
+             __| _/_____     /   _____/  ____ _______ _/  |_   ____  
+            / __ | \__  \    \_____  \  /  _ \\_  __ \\   __\_/ __ \ 
+           / /_/ |  / __ \_  /        \(  <_> )|  | \/ |  |  \  ___/ 
+           \____ | (____  / /_______  / \____/ |__|    |__|   \___  >
+                \/      \/          \/                            \/ 
+
 # Instalação
 ``git clone https://github.com/estopassoli/robozinho-da-sorte.git``</br>
 ``npm i`` </br>
