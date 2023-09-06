@@ -3,9 +3,9 @@
 Este repositório foi criado a partir de uma necessidade em fazer "bolões" em apostas na Loterias Online (https://www.loteriasonline.caixa.gov.br/).
 
 # Instalação
-``git clone https://github.com/estopassoli/robozinho-da-sorte.git``
-``npm i``
-``npm run start``
+``git clone https://github.com/estopassoli/robozinho-da-sorte.git``</br>
+``npm i`` </br>
+``npm run start``</br>
 # Como funciona?
 
 -   Antes de rodar o "start" você deverá colocar no arquivo ``/src/data/userGames.csv`` suas apostas, seguindo o padrão que já está de exemplo: 01,02,03,04,05,06,07,08,09,10... (Números separados por vírgulas)
