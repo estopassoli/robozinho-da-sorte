@@ -1,6 +1,8 @@
 const readline = require('readline');
 const Game = require("./src/lib/game");
+const Robot = require('./src/utils/player');
 const playFromCsv = require("./src/utils/playFromCsv");
+Robot();
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -50,7 +52,6 @@ const questions = [
         type: 'number'
     }
 ];
-
 function askQuestion(index) {
     if (index < questions.length) {
         rl.question(questions[index].question, (answer) => {
@@ -68,8 +69,6 @@ function askQuestion(index) {
             askQuestion(index + 1);
         });
     } else {
-        console.log(userInputs)
-
         // Aqui, todas as perguntas foram feitas e temos todas as respostas.
         userInputs.userGames = playFromCsv();
 

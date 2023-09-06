@@ -19,6 +19,8 @@ class Game {
         this.gamePrice = gamePrice;
         this.toPlay = maxRandomGames + userGames.length;
         this.probability = calculateProbability(userGames, max, qtdNums)
+        console.log(log)
+
     }
 
     async delay(seconds) {
